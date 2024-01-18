@@ -64,6 +64,11 @@
       window.addEventListener('resize', () => {
         getClientSize();
       });
+      const elements = document.getElementsByTagName('a');
+      for (let element of elements) {
+        element.setAttribute('target', '_blank');
+        element.setAttribute('rel', 'noopener noreferrer');
+      }
     </script>
   </body>
 </html>

@@ -16,7 +16,7 @@
       </h1>
       <div class="flex">
         <div class="card">
-          <a href="./assets/site/50/index.html">
+          <a href="https://sen-solotrip.vercel.app/">
             <img
               src="./assets/screenshot/50_ss.jpg"
               alt="image" />
@@ -91,6 +91,11 @@
       window.addEventListener('resize', () => {
         getClientSize();
       });
+      const elements = document.getElementsByTagName('a');
+      for (let element of elements) {
+        element.setAttribute('target', '_blank');
+        element.setAttribute('rel', 'noopener noreferrer');
+      }
     </script>
   </body>
 </html>
