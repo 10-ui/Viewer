@@ -30,7 +30,7 @@ a {
   gap: 25px;
 }
 .card {
-  width: calc(100dvw / 8);
+  width: calc(100dvw / 7.5);
   height: fit-content;
   border: 1px solid #fff;
   padding: 8px;
